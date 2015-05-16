@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70D59953E888080D26B28C90 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FBE3AEDB740F4DDE6118C8 /* libPods.a */; };
+		842BC46C1AB9579D00B900AD /* sevenLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 842BC46B1AB9579D00B900AD /* sevenLogo.png */; };
+		8440B3951A9C97020088BB60 /* globalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440B3941A9C97020088BB60 /* globalViewController.swift */; };
+		844551571AA076EB00C9A3B7 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844551561AA076EB00C9A3B7 /* Social.framework */; };
+		844551591AA076F600C9A3B7 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844551581AA076F600C9A3B7 /* Accounts.framework */; };
+		8445515B1AA0775B00C9A3B7 /* SignUpInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8445515A1AA0775B00C9A3B7 /* SignUpInViewController.swift */; };
+		844A46561AA8C29B009B27A4 /* RecommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844A46551AA8C29B009B27A4 /* RecommentViewController.swift */; };
+		844A465A1AA9050D009B27A4 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844A46591AA9050D009B27A4 /* homeViewController.swift */; };
+		844A465C1AA91B6F009B27A4 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844A465B1AA91B6F009B27A4 /* Reachability.swift */; };
+		844BCCF21A9508FD00A461E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BCCF11A9508FD00A461E5 /* AppDelegate.swift */; };
+		844BCCF71A9508FD00A461E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844BCCF51A9508FD00A461E5 /* Main.storyboard */; };
+		844BCCF91A9508FD00A461E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844BCCF81A9508FD00A461E5 /* Images.xcassets */; };
+		844BCCFC1A9508FD00A461E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844BCCFA1A9508FD00A461E5 /* LaunchScreen.xib */; };
+		844BCD081A9508FD00A461E5 /* SevenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BCD071A9508FD00A461E5 /* SevenTests.swift */; };
+		844BCD151A95376900A461E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BCD141A95376900A461E5 /* ViewController.swift */; };
+		8452C6BE1AF2846900006004 /* Conference Call-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 8452C6BD1AF2846900006004 /* Conference Call-50.png */; };
+		8458D1BB1AB9371E00A92105 /* sevenLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8458D1BA1AB9371E00A92105 /* sevenLogo.jpg */; };
+		848197031AA956AA00C863DB /* Home-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 848197001AA956AA00C863DB /* Home-50.png */; };
+		848197041AA956AA00C863DB /* Cancel-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 848197011AA956AA00C863DB /* Cancel-50.png */; };
+		84987A141AC4746500E6CD9D /* kiyakuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84987A131AC4746500E6CD9D /* kiyakuViewController.swift */; };
+		84987A161AC47D7300E6CD9D /* High Priority-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 84987A151AC47D7300E6CD9D /* High Priority-50.png */; };
+		84E6917C1AB8D77000547FD0 /* Exit-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E6917B1AB8D77000547FD0 /* Exit-50.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		844BCD021A9508FD00A461E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844BCCE41A9508FD00A461E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844BCCEB1A9508FD00A461E5;
+			remoteInfo = Seven;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		842BC46B1AB9579D00B900AD /* sevenLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sevenLogo.png; path = ../../../../Downloads/sevenLogo.png; sourceTree = "<group>"; };
+		8440946D1AE75E24002854FE /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		8440B3941A9C97020088BB60 /* globalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = globalViewController.swift; sourceTree = "<group>"; };
+		844551561AA076EB00C9A3B7 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		844551581AA076F600C9A3B7 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		8445515A1AA0775B00C9A3B7 /* SignUpInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpInViewController.swift; sourceTree = "<group>"; };
+		844A46551AA8C29B009B27A4 /* RecommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommentViewController.swift; sourceTree = "<group>"; };
+		844A46591AA9050D009B27A4 /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = homeViewController.swift; path = ../homeViewController.swift; sourceTree = "<group>"; };
+		844A465B1AA91B6F009B27A4 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		844BCCEC1A9508FD00A461E5 /* Seven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seven.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		844BCCF01A9508FD00A461E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844BCCF11A9508FD00A461E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		844BCCF61A9508FD00A461E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		844BCCF81A9508FD00A461E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		844BCCFB1A9508FD00A461E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		844BCD011A9508FD00A461E5 /* SevenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SevenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		844BCD061A9508FD00A461E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844BCD071A9508FD00A461E5 /* SevenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenTests.swift; sourceTree = "<group>"; };
+		844BCD111A950AD700A461E5 /* Seven-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Seven-Bridging-Header.h"; sourceTree = "<group>"; };
+		844BCD141A95376900A461E5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		8452C6BD1AF2846900006004 /* Conference Call-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Conference Call-50.png"; path = "../../../../Downloads/Conference Call-50.png"; sourceTree = "<group>"; };
+		8458D1BA1AB9371E00A92105 /* sevenLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sevenLogo.jpg; path = ../../../../Downloads/sevenLogo.jpg; sourceTree = "<group>"; };
+		848197001AA956AA00C863DB /* Home-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-50.png"; sourceTree = "<group>"; };
+		848197011AA956AA00C863DB /* Cancel-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cancel-50.png"; sourceTree = "<group>"; };
+		84987A131AC4746500E6CD9D /* kiyakuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kiyakuViewController.swift; sourceTree = "<group>"; };
+		84987A151AC47D7300E6CD9D /* High Priority-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "High Priority-50.png"; sourceTree = "<group>"; };
+		84E6917B1AB8D77000547FD0 /* Exit-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Exit-50.png"; sourceTree = "<group>"; };
+		C008595953D5DA7F1939C136 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C695FEED859DB8B82D5AD9C9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E2FBE3AEDB740F4DDE6118C8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844BCCE91A9508FD00A461E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844551591AA076F600C9A3B7 /* Accounts.framework in Frameworks */,
+				844551571AA076EB00C9A3B7 /* Social.framework in Frameworks */,
+				70D59953E888080D26B28C90 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844BCCFE1A9508FD00A461E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8435E7861AC5B5AC00ABCE80 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				842BC46B1AB9579D00B900AD /* sevenLogo.png */,
+				84E6917B1AB8D77000547FD0 /* Exit-50.png */,
+				8452C6BD1AF2846900006004 /* Conference Call-50.png */,
+				848197001AA956AA00C863DB /* Home-50.png */,
+				848197011AA956AA00C863DB /* Cancel-50.png */,
+				84987A151AC47D7300E6CD9D /* High Priority-50.png */,
+				8458D1BA1AB9371E00A92105 /* sevenLogo.jpg */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		844BCCE31A9508FD00A461E5 = {
+			isa = PBXGroup;
+			children = (
+				844A465B1AA91B6F009B27A4 /* Reachability.swift */,
+				844BCCEE1A9508FD00A461E5 /* Seven */,
+				844BCD041A9508FD00A461E5 /* SevenTests */,
+				844BCCED1A9508FD00A461E5 /* Products */,
+				890CE03705DCEE44E3DB37FD /* Pods */,
+				8ADD47F924F2EB589A4AF3BF /* Frameworks */,
+				844BCD111A950AD700A461E5 /* Seven-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		844BCCED1A9508FD00A461E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844BCCEC1A9508FD00A461E5 /* Seven.app */,
+				844BCD011A9508FD00A461E5 /* SevenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844BCCEE1A9508FD00A461E5 /* Seven */ = {
+			isa = PBXGroup;
+			children = (
+				844BCD141A95376900A461E5 /* ViewController.swift */,
+				844A46591AA9050D009B27A4 /* homeViewController.swift */,
+				8440B3941A9C97020088BB60 /* globalViewController.swift */,
+				844BCCF11A9508FD00A461E5 /* AppDelegate.swift */,
+				844BCCF51A9508FD00A461E5 /* Main.storyboard */,
+				84987A131AC4746500E6CD9D /* kiyakuViewController.swift */,
+				844A46551AA8C29B009B27A4 /* RecommentViewController.swift */,
+				8445515A1AA0775B00C9A3B7 /* SignUpInViewController.swift */,
+				8435E7861AC5B5AC00ABCE80 /* img */,
+				844BCCF81A9508FD00A461E5 /* Images.xcassets */,
+				844BCCFA1A9508FD00A461E5 /* LaunchScreen.xib */,
+				844BCCEF1A9508FD00A461E5 /* Supporting Files */,
+			);
+			path = Seven;
+			sourceTree = "<group>";
+		};
+		844BCCEF1A9508FD00A461E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				844BCCF01A9508FD00A461E5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		844BCD041A9508FD00A461E5 /* SevenTests */ = {
+			isa = PBXGroup;
+			children = (
+				844BCD071A9508FD00A461E5 /* SevenTests.swift */,
+				844BCD051A9508FD00A461E5 /* Supporting Files */,
+			);
+			path = SevenTests;
+			sourceTree = "<group>";
+		};
+		844BCD051A9508FD00A461E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				844BCD061A9508FD00A461E5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		890CE03705DCEE44E3DB37FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C008595953D5DA7F1939C136 /* Pods.debug.xcconfig */,
+				C695FEED859DB8B82D5AD9C9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8ADD47F924F2EB589A4AF3BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				844551581AA076F600C9A3B7 /* Accounts.framework */,
+				844551561AA076EB00C9A3B7 /* Social.framework */,
+				E2FBE3AEDB740F4DDE6118C8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844BCCEB1A9508FD00A461E5 /* Seven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844BCD0B1A9508FD00A461E5 /* Build configuration list for PBXNativeTarget "Seven" */;
+			buildPhases = (
+				E889135F1DEE1C42248A8963 /* Check Pods Manifest.lock */,
+				844BCCE81A9508FD00A461E5 /* Sources */,
+				844BCCE91A9508FD00A461E5 /* Frameworks */,
+				844BCCEA1A9508FD00A461E5 /* Resources */,
+				00025D04505451478E32F76F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Seven;
+			productName = Seven;
+			productReference = 844BCCEC1A9508FD00A461E5 /* Seven.app */;
+			productType = "com.apple.product-type.application";
+		};
+		844BCD001A9508FD00A461E5 /* SevenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844BCD0E1A9508FD00A461E5 /* Build configuration list for PBXNativeTarget "SevenTests" */;
+			buildPhases = (
+				844BCCFD1A9508FD00A461E5 /* Sources */,
+				844BCCFE1A9508FD00A461E5 /* Frameworks */,
+				844BCCFF1A9508FD00A461E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				844BCD031A9508FD00A461E5 /* PBXTargetDependency */,
+			);
+			name = SevenTests;
+			productName = SevenTests;
+			productReference = 844BCD011A9508FD00A461E5 /* SevenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844BCCE41A9508FD00A461E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Seven;
+				TargetAttributes = {
+					844BCCEB1A9508FD00A461E5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					844BCD001A9508FD00A461E5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 844BCCEB1A9508FD00A461E5;
+					};
+				};
+			};
+			buildConfigurationList = 844BCCE71A9508FD00A461E5 /* Build configuration list for PBXProject "Seven" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+			);
+			mainGroup = 844BCCE31A9508FD00A461E5;
+			productRefGroup = 844BCCED1A9508FD00A461E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844BCCEB1A9508FD00A461E5 /* Seven */,
+				844BCD001A9508FD00A461E5 /* SevenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		844BCCEA1A9508FD00A461E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848197031AA956AA00C863DB /* Home-50.png in Resources */,
+				844BCCF71A9508FD00A461E5 /* Main.storyboard in Resources */,
+				84987A161AC47D7300E6CD9D /* High Priority-50.png in Resources */,
+				844BCCFC1A9508FD00A461E5 /* LaunchScreen.xib in Resources */,
+				844BCCF91A9508FD00A461E5 /* Images.xcassets in Resources */,
+				8452C6BE1AF2846900006004 /* Conference Call-50.png in Resources */,
+				842BC46C1AB9579D00B900AD /* sevenLogo.png in Resources */,
+				84E6917C1AB8D77000547FD0 /* Exit-50.png in Resources */,
+				8458D1BB1AB9371E00A92105 /* sevenLogo.jpg in Resources */,
+				848197041AA956AA00C863DB /* Cancel-50.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844BCCFF1A9508FD00A461E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00025D04505451478E32F76F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E889135F1DEE1C42248A8963 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844BCCE81A9508FD00A461E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844A465C1AA91B6F009B27A4 /* Reachability.swift in Sources */,
+				844BCD151A95376900A461E5 /* ViewController.swift in Sources */,
+				84987A141AC4746500E6CD9D /* kiyakuViewController.swift in Sources */,
+				844A465A1AA9050D009B27A4 /* homeViewController.swift in Sources */,
+				844BCCF21A9508FD00A461E5 /* AppDelegate.swift in Sources */,
+				844A46561AA8C29B009B27A4 /* RecommentViewController.swift in Sources */,
+				8440B3951A9C97020088BB60 /* globalViewController.swift in Sources */,
+				8445515B1AA0775B00C9A3B7 /* SignUpInViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844BCCFD1A9508FD00A461E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844BCD081A9508FD00A461E5 /* SevenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		844BCD031A9508FD00A461E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 844BCCEB1A9508FD00A461E5 /* Seven */;
+			targetProxy = 844BCD021A9508FD00A461E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		844BCCF51A9508FD00A461E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844BCCF61A9508FD00A461E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		844BCCFA1A9508FD00A461E5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844BCCFB1A9508FD00A461E5 /* Base */,
+				8440946D1AE75E24002854FE /* ja */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		844BCD091A9508FD00A461E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		844BCD0A1A9508FD00A461E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		844BCD0C1A9508FD00A461E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C008595953D5DA7F1939C136 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/admin/Documents/FacebookSDK,
+					"$(PROJECT_DIR)/Pods/ParseFacebookUtils",
+					"$(PROJECT_DIR)/Pods",
+				);
+				INFOPLIST_FILE = Seven/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Seven-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		844BCD0D1A9508FD00A461E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C695FEED859DB8B82D5AD9C9 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/admin/Documents/FacebookSDK,
+					"$(PROJECT_DIR)/Pods/ParseFacebookUtils",
+					"$(PROJECT_DIR)/Pods",
+				);
+				INFOPLIST_FILE = Seven/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Seven-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		844BCD0F1A9508FD00A461E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SevenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seven.app/Seven";
+			};
+			name = Debug;
+		};
+		844BCD101A9508FD00A461E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SevenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seven.app/Seven";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844BCCE71A9508FD00A461E5 /* Build configuration list for PBXProject "Seven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844BCD091A9508FD00A461E5 /* Debug */,
+				844BCD0A1A9508FD00A461E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844BCD0B1A9508FD00A461E5 /* Build configuration list for PBXNativeTarget "Seven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844BCD0C1A9508FD00A461E5 /* Debug */,
+				844BCD0D1A9508FD00A461E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844BCD0E1A9508FD00A461E5 /* Build configuration list for PBXNativeTarget "SevenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844BCD0F1A9508FD00A461E5 /* Debug */,
+				844BCD101A9508FD00A461E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 844BCCE41A9508FD00A461E5 /* Project object */;
+}
